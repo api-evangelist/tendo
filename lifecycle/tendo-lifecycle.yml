@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.tendo.com/ (Atlassian Statuspage) + tendo.com developer surface probe
+status_page:
+  url: https://status.tendo.com
+  provider: atlassian-statuspage
+  name: Tendo Systems Status
+  api: https://status.tendo.com/api/v2/status.json
+  current_indicator: none
+  current_description: All Systems Operational
+versioning:
+  policy: none-published
+  notes: No public API versioning policy found; Tendo exposes no public developer portal or OpenAPI.
+deprecation:
+  policy: none-published
+  sunset_header: unknown
+  deprecation_header: unknown
+sla:
+  published: false
+notes: >-
+  Tendo is an enterprise B2B healthcare SaaS. Integrations (e.g. the Care Connect
+  marketplace API) are delivered under private partner agreements; no public API
+  lifecycle, deprecation, or versioning policy is published as of the probe date.

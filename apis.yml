@@ -1,8 +1,18 @@
 aid: tendo
 name: Tendo
-description: 'Tendo is a company surfaced as a portfolio company of lux-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Tendo is a healthcare software company founded in 2020 by siblings Dan and Jen
+  Goldsmith (previously of Veeva Systems and Instructure) and headquartered in the
+  Philadelphia area. Tendo builds a cloud, purpose-built healthcare platform and a
+  suite of applications that connect patients, clinicians, providers, and caregivers
+  across the care journey — spanning digital patient engagement, quality and clinical
+  documentation improvement, hospital quality rankings analytics, and the Care Connect
+  marketplace for employers, providers, and patients. The company raised a $50M Series
+  B led by Lux Capital (with General Catalyst). Tendo runs public trust and status
+  surfaces (a SafeBase trust center with SOC 2 and HIPAA, an Atlassian Statuspage) but
+  does not publish a public developer portal or OpenAPI; API integration is delivered
+  under private partner agreements. Surfaced as a Lux Capital portfolio company and
+  enriched in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/tendo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +20,30 @@ x-backed-by:
 - lux-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://tendo.com/wp-content/uploads/2023/02/tendo-logo-1200-675.png
 tags:
 - Company
 - Healthcare
+- Digital Health
+- Patient Engagement
+- Care Coordination
+- Clinical Documentation
+- Healthcare Analytics
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,30 @@ maintainers:
 common:
 - type: Website
   url: https://www.tendo.com
+- type: Documentation
+  url: https://docs.tendo.com
+- type: Blog
+  url: https://tendo.com/blog/
+- type: Support
+  url: https://tendo.com/contact/
+- type: TermsOfService
+  url: https://tendo.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://tendo.com/terms-of-use/#privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/tendo-connects
+- type: StatusPage
+  url: https://status.tendo.com
+- type: Lifecycle
+  url: lifecycle/tendo-lifecycle.yml
+- type: TrustCenter
+  url: security/tendo-trust-center.yml
+- type: Compliance
+  url: security/tendo-trust-center.yml
+- type: DomainSecurity
+  url: security/tendo-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
